@@ -1,0 +1,28 @@
+<md-toolbar color="primary">
+  <span>ISEN Immo</span>
+  <span flex></span>
+
+  <button md-icon-button [mdMenuTriggerFor]="more">
+    <md-icon>more_vert</md-icon>
+  </button>
+
+  <md-menu #more="mdMenu">
+    <button md-menu-item>
+      S'inscrire
+    </button>
+
+    <button md-menu-item>
+      Se connecter
+    </button>
+  </md-menu>
+
+  <md-toolbar-row>
+
+  </md-toolbar-row>
+
+  <md-toolbar-row>
+
+  </md-toolbar-row>
+</md-toolbar>
+
+<ui-view></ui-view>

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "allowJs": false,
+        "charset": "utf-8",
+        "emitBOM": true,
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "pretty": true,
+        "outDir": "build",
+        "newLine": "LF",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "rootDir": "src"
+    }
+}

@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(~@angular/material/core/theming/prebuilt/indigo-pink.css);
+html, body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
+[flex] {
+  display: flex;
+  flex: 1; }
+
+[layout="row"] {
+  flex-direction: row; }
+
+[layout="column"] {
+  flex-direction: column; }
+
+[layout-align="flex-start flex-start"] {
+  align-items: flex-start;
+  justify-content: flex-start; }
+
+[layout-align="flex-start center"] {
+  align-items: flex-start;
+  justify-content: center; }
+
+[layout-align="flex-start flex-end"] {
+  align-items: flex-start;
+  justify-content: flex-end; }
+
+[layout-align="center flex-start"] {
+  align-items: center;
+  justify-content: flex-start; }
+
+[layout-align="center center"] {
+  align-items: center;
+  justify-content: center; }
+
+[layout-align="center flex-end"] {
+  align-items: center;
+  justify-content: flex-end; }
+
+[layout-align="flex-end flex-start"] {
+  align-items: flex-end;
+  justify-content: flex-start; }
+
+[layout-align="flex-end center"] {
+  align-items: flex-end;
+  justify-content: center; }
+
+[layout-align="flex-end flex-end"] {
+  align-items: flex-end;
+  justify-content: flex-end; }

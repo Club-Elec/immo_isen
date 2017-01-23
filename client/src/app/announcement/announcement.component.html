@@ -1,0 +1,22 @@
+<div>
+  <md-card>
+    <md-card-header>
+      <md-card-title>{{ announcement.title }}</md-card-title>
+      <md-card-subtitle>{{ announcement.address }}</md-card-subtitle>
+    </md-card-header>
+
+    <img md-card-image src="{{ announcement.image }}">
+
+    <md-card-content>
+      <p>{{ announcement.description }}</p>
+    </md-card-content>
+
+    <md-card-actions flex>
+      <span flex></span>
+      <button md-button color="primary">
+        <md-icon>contacts</md-icon>
+        <span>Contact</span>
+      </button>
+    </md-card-actions>
+  </md-card>
+</div>

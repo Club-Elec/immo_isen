@@ -1,0 +1,18 @@
+<md-card *ngFor="let announcement of announcements">
+  <md-card-header>
+    <md-card-title>{{ announcement.title }}</md-card-title>
+    <md-card-subtitle>{{ announcement.address }}</md-card-subtitle>
+  </md-card-header>
+
+  <md-card-content>
+    <p>{{ announcement.description }}</p>
+  </md-card-content>
+
+  <md-card-actions flex>
+    <span flex></span>
+    <button md-button color="primary" uiSref="guest.announcement" [uiParams]="{ id: announcement.aid }" >
+      <md-icon>details</md-icon>
+      <span>Détails</span>
+    </button>
+  </md-card-actions>
+</md-card>
