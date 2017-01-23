@@ -1,0 +1,1 @@
+INSERT INTO "group" (gid, createdat, updatedat) VALUES (1, now(), now()), (2, now(), now());
