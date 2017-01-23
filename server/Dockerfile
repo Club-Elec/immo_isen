@@ -24,11 +24,12 @@ ENV JWT_SECRET secret
 # Install deps
 COPY package.json /usr/src/api-isen-immo/
 COPY yarn.lock /usr/src/api-isen-immo/
-RUN yarn install --prod
+RUN yarn install
 
 #Copy app
 COPY . /usr/src/api-isen-immo
 
 EXPOSE 80
+EXPOSE 9000
 
 CMD ["yarn", "start"]
